@@ -1,0 +1,102 @@
+.detail{
+	width: 90%;
+	margin: 10px auto;
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.detail .picsCollection{
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+	padding-top: 5rem;
+}
+
+.detail .picsCollection .pic5{
+	margin-top: 10px;
+	border:0;
+}
+
+.detail .display{
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top:1.5rem;
+}
+
+.detail .display img{
+	height: 50%;
+}
+
+
+.detail .details{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.5rem;
+}
+
+.detail .details .title{
+	font-size: 1.5rem;
+}
+
+.detail .details .subtitle{
+	margin-top: 5px;
+	padding-bottom: 15px;
+}
+
+.detail .details .quantity{
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding-bottom: 5px;
+	width: 90%;
+	
+	
+}
+
+.detail .details .quantity .quantityTitle{
+	font-size: 1.1rem;
+	justify-content: flex-start;
+	width: 50%;
+}
+
+.detail .details .quantity .add{
+	width:50%;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1rem;
+
+}
+
+.detail .details .quantity .add .sub{
+	padding-right: 10px;
+	border:0;
+	background-color: white;
+}
+
+.detail .details .quantity .add .plus{
+	padding-left: 10px;
+	border:0;
+	background-color: white;
+}
+
+.detail .details .cart {
+margin-top: 1.5rem;
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+width: 90%;
+}
+
+.detail .details .des .desTitle{
+	font-weight: bold;
+	margin-bottom: 10px;
+}

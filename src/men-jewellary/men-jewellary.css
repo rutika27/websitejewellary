@@ -1,0 +1,38 @@
+.jewellary .link{
+	width: 85%;
+	margin: 10px auto;
+}
+
+.jewellary .link span{
+	margin-right: 10px;
+}
+
+.jewellary .container1 .row{
+}
+
+.jewellary .container1 .card_category{
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.jewellary .container1 .card_category .img{
+	width:100%;
+	
+	height: 100%;
+}
+
+.jewellary .container1 .card_category .title_button{
+	width: 90%;
+	display: flex;
+	margin: 0.5rem auto;
+	justify-content: center;
+}
+
+.jewellary .container1 .card_category .title_button .shop_press{
+	border:0;
+	background-color: white;
+	font-size: 0.95rem;
+
+}
